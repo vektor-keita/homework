@@ -43,7 +43,7 @@ def bisection_method(start, end):
         else:
             right = k
 
-        k = (left - right)/2.0
+        k = (left + right)/2.0
 
     return k
 
